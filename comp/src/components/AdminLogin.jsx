@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "./Login.css";
 
 export default function AdminLogin() {
   return (
@@ -23,13 +24,13 @@ export default function AdminLogin() {
       </div>
       <div className='w-full flex items-center justify-between'>
         <div className=' w-full flex items-center '>
-          <input type='checkbox' className='w-4 h-4 mr-2' />
+          <input type='checkbox' className='w-4 h-4 mr-2 my-1' />
           <p className='text-sm '>Remember Me</p>
         </div>
         <p className='text-sm font-medium whitespace-nowrap cursor-pointer underline-offset-2'>Forget Password ?</p>
       </div>
       <div className='w-full flex flex-col my-4'> 
-        <button className='w-full  my-2 text-white bg-[#060606] rounded-md p-4 text-center flex items-center justify-center' >Log in</button>
+        <button className='w-full h-5  my-2 text-white bg-[#060606] rounded-md p-4 text-center flex items-center justify-center' >Log in</button>
         
       </div>
       <div className='w-full flex items-center justify-center relative py-2'>
@@ -38,7 +39,7 @@ export default function AdminLogin() {
 
         </div> </div>
         <div>
-        <div className='w-full  my-2 text-[#060606] bg-white rounded-md p-4 text-center flex items-center justify-center' >Sign in with google</div>
+        <div className='w-full h-5 my-2 text-[#060606] bg-white rounded-md p-4 text-center flex items-center justify-center' >Sign in with google</div>
 
         </div>
 
