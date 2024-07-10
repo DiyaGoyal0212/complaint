@@ -19,7 +19,7 @@ h1{
     font-weight:900;
    
 }
-button h3{
+.button h3{
     font-size:20px;
 }
 .stud{
@@ -66,9 +66,10 @@ button h3{
     height: 250px;
 
 }
-button{
+.button{
    height: 35px;
    width: 100px;
+   background-color: white;
 }
 .stud h2{
     margin-top: 15px;
